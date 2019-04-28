@@ -30,9 +30,9 @@ class TicketAward extends Base
         $save['ticket_award_result'] = json_encode($data);
         $save['create_time'] = time();
         $save['update_time'] = time();
-
-        Db::startTrans();// 启动事务
+        
         try {
+        	Db::startTrans();// 启动事务
             Db::table('tc_ticket_award')->insert($save, true);
             Db::table('tc_ticket')->where('ticket_id', $save['ticket_id'])->update(['award_status' => 1]);
             Db::commit();// 提交事务
