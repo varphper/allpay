@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Mon, 16 Jul 2018 09:36:09 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx/1.12.2
+
+d8
+{"retCode":0,"errCode":0,"msg":"","serverTime":1531733769256,"data":{"totalmoney":"10","appticketcnt":"1","QRCode":"1A123456EBET990fdeb6b3cfeeca66cd5c15674e5619c5c6ae5d3c141e1fefe75e2d5620682e11","bet":"1","msg":""}}
+0
+
